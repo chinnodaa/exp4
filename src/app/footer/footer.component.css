@@ -1,0 +1,8 @@
+.my-5{
+    position: relative;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

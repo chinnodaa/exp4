@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/">LMS-MEDEMY</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <!--**** names in the routerLink attribute are to be same as the ones which you give in the path in app.routes.ts +**** -->
+            <a class="nav-link" routerLink="services">Services</a>  
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="signup">Signup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="login">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
